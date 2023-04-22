@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+</head>
+<body>
+New students added: <br><br>
+{% for student in students %}
+{{ student.first_name }} {{ student.last_name }}, {{ student.age }} <br>
+{% endfor %}
+</body>
+</html>

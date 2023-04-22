@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+Hello. You're at the {{ name }} index.
+<br><br>
+admin/ - admin <br>
+students/ - start <br>
+students/generate-student/ - generates and saves one student <br>
+students/generate-students/ - generates and saves several students <br>
+<br>
+Form to create students (1-100):
+<br>
+<form action = "generate-students/" method = "get">
+    {{ form }}
+    <input type="submit" value=submit>
+</form>
+</body>
+</html>
